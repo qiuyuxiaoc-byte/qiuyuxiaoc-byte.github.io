@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UCVPN 2.5.10 APK 下载（appjp.ucvpn.com）</title>
+<meta name="description" content="UCVPN 2.5.10 (versionCode 25084) split APK 下载：base + config.arm64_v8a + config.zh，含 SHA256 校验。">
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;padding:24px 16px 64px;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:#0d1117;color:#e6edf3}
+main{max-width:760px;margin:0 auto}
+h1{font-size:26px;margin:0 0 4px}
+.sub{color:#8b949e;font-size:14px;margin-bottom:24px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:16px 18px;margin-bottom:16px}
+a.dl{display:flex;align-items:center;justify-content:space-between;gap:12px;text-decoration:none;background:#1f6feb;color:#fff;padding:14px 16px;border-radius:10px;font-weight:600;margin:10px 0}
+a.dl small{font-weight:400;opacity:.85}
+a.dl.alt{background:#21262d;border:1px solid #30363d;color:#e6edf3}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td,th{text-align:left;padding:6px 8px;border-bottom:1px solid #21262d;vertical-align:top}
+th{color:#8b949e;font-weight:500;width:38%}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;word-break:break-all;color:#79c0ff}
+h2{font-size:17px;margin:22px 0 10px}
+ol,ul{padding-left:20px;margin:8px 0}
+li{margin:4px 0}
+.note{color:#8b949e;font-size:13px}
+</style>
+</head>
+<body>
+<main>
+<h1>UCVPN 2.5.10</h1>
+<div class="sub">appjp.ucvpn.com · versionCode 25084 · minSdk 24 / targetSdk 36 · 拆分 APK（split APK set）</div>
+
+<div class="card">
+<h2 style="margin-top:0">直接下载</h2>
+<a class="dl" href="https://github.com/qiuyuxiaoc-byte/apk-share/releases/download/ucvpn-2.5.10/UCVPN_2.5.10_base.apk">UCVPN_2.5.10_base.apk <small>9.9 MB · 必需</small></a>
+<a class="dl" href="https://github.com/qiuyuxiaoc-byte/apk-share/releases/download/ucvpn-2.5.10/UCVPN_2.5.10_config.arm64_v8a.apk">UCVPN_2.5.10_config.arm64_v8a.apk <small>63.7 MB · arm64 必需</small></a>
+<a class="dl alt" href="https://github.com/qiuyuxiaoc-byte/apk-share/releases/download/ucvpn-2.5.10/UCVPN_2.5.10_config.zh.apk">UCVPN_2.5.10_config.zh.apk <small>33 KB · 中文资源</small></a>
+<a class="dl alt" href="https://github.com/qiuyuxiaoc-byte/apk-share/releases/tag/ucvpn-2.5.10">Release 页面（全部文件）</a>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">文件信息</h2>
+<table>
+<tr><th>包名</th><td><code>appjp.ucvpn.com</code></td></tr>
+<tr><th>版本</th><td>2.5.10（25084）</td></tr>
+<tr><th>ABI</th><td>arm64-v8a（仅此一套）</td></tr>
+<tr><th>签名</th><td>原始签名保留，未修改</td></tr>
+<tr><th>base SHA256</th><td><code>e41dd36fd5e24f995de4373b0041a210d4bd3e1d2dd92a36c0a775a64279de17</code></td></tr>
+<tr><th>arm64 SHA256</th><td><code>22245db371e2597d046b9f4db9d3ac44022c260eed281d38cea88c14ad96e6d2</code></td></tr>
+<tr><th>zh SHA256</th><td><code>3c3e5f526384f5ed2e8121c78a26b6283665f3287ef18a7b6d2a68c749122489</code></td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2 style="margin-top:0">安装 / 使用说明</h2>
+<ol>
+<li>这是拆分 APK，<b>必须三个一起装</b>。base 单独装会启动失败（缺 native lib）。</li>
+<li>手机安装：用 SAI（Split APKs Installer）或 MT 管理器的「APK 拆分安装」，选三个文件。</li>
+<li>adb：<code>adb install-multiple base.apk config.arm64_v8a.apk config.zh.apk</code></li>
+<li>只想做静态分析：<code>base</code> + <code>config.arm64_v8a</code> 就够（dex、flutter assets、libbox.so 都在里面），zh 只是界面翻译资源。</li>
+</ol>
+<p class="note">用途自述：由设备上已安装的 UCVPN 2.5.10 提取。链接为公开直链，可离线保存。</p>
+</div>
+</main>
+</body>
+</html>
