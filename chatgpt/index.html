@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ChatGPT 1.2026.314 · Android 直链下载</title>
+<style>
+  :root{
+    --bg:#0b0f14; --card:#131a22; --line:#202b37; --txt:#e8eef5; --dim:#8b9bad;
+    --green:#10a37f; --green2:#0d8a6b;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#12312b 0%,var(--bg) 55%);
+       color:var(--txt);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Noto Sans SC",sans-serif;
+       padding:24px 16px 48px;max-width:560px;margin:0 auto}
+  header{display:flex;align-items:center;gap:12px;margin:8px 0 20px}
+  .logo{width:52px;height:52px;border-radius:14px;background:#fff;display:grid;place-items:center;flex:0 0 auto;overflow:hidden}
+  .logo img{width:100%;height:100%;object-fit:cover}
+  h1{font-size:20px;margin:0;letter-spacing:.2px}
+  .sub{color:var(--dim);font-size:13px;margin-top:2px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0}
+  .btn{display:flex;flex-direction:column;gap:2px;text-decoration:none;border-radius:14px;padding:15px 18px;
+       background:linear-gradient(180deg,var(--green),var(--green2));color:#fff;font-weight:600;font-size:16px;
+       box-shadow:0 6px 18px rgba(16,163,127,.28);margin:10px 0;transition:transform .06s ease}
+  .btn:active{transform:scale(.985)}
+  .btn small{font-weight:400;opacity:.9;font-size:12.5px}
+  .btn.ghost{background:#1b2530;color:var(--txt);box-shadow:none;border:1px solid var(--line)}
+  .btn.ghost small{color:var(--dim)}
+  ol{margin:8px 0 0;padding-left:20px;color:#c9d5e2;font-size:14.5px}
+  ol li{margin:7px 0}
+  code{background:#0d141b;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:12.5px;
+       color:#9fe6d3;word-break:break-all}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  td{padding:5px 0;color:#c9d5e2;vertical-align:top}
+  td:first-child{color:var(--dim);width:88px;white-space:nowrap}
+  .warn{border-left:3px solid #e0a33a;background:#1d1710;color:#f0d9b5;font-size:13.5px;
+        padding:10px 12px;border-radius:0 10px 10px 0;margin:14px 0}
+  .tag{display:inline-block;font-size:11.5px;padding:2px 8px;border-radius:99px;background:#16302a;color:#5ce0b8;
+       border:1px solid #1f4a3f;margin-left:6px;vertical-align:middle}
+  footer{color:#5f6f80;font-size:12px;text-align:center;margin-top:26px;line-height:1.8}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><img src="icon.png" alt="ChatGPT"></div>
+  <div>
+    <h1>ChatGPT <span class="tag">1.2026.314</span></h1>
+    <div class="sub">Play 商店原版 · com.openai.chatgpt · arm64-v8a</div>
+  </div>
+</header>
+
+<div class="card">
+  <a class="btn" href="https://github.com/qiuyuxiaoc-byte/apk-share/releases/download/chatgpt-1.2026.314/ChatGPT_1.2026.314.xapk">
+    ① 下载安装包 · 118.5 MB
+    <small>点一下直接开始下载，无广告、不限速、断点可续</small>
+  </a>
+  <a class="btn ghost" href="https://github.com/qiuyuxiaoc-byte/apk-share/releases/download/chatgpt-1.2026.314/SAI-4.5.apk">
+    ② 下载分包安装器 SAI · 4.9 MB
+    <small>ChatGPT 是 split 包，这个装完用它打开上面的文件即可</small>
+  </a>
+</div>
+
+<div class="card">
+  <b>安装步骤</b>
+  <ol>
+    <li>先装 <b>SAI-4.5.apk</b>（系统会提示"允许安装未知来源"，允许即可）。</li>
+    <li>再点①下回来的 <code>ChatGPT_1.2026.314.xapk</code>，选「用 SAI 安装」。</li>
+    <li>SAI 里全选 4 个分包 → <b>INSTALL</b> → 完成。</li>
+  </ol>
+  <div class="warn">别单独装包里那个 <code>com.openai.chatgpt.apk</code> —— 它是 base 包，缺 arm64 原生库，会闪退。</div>
+</div>
+
+<div class="card">
+  <b>文件信息</b>
+  <table>
+    <tr><td>包名</td><td>com.openai.chatgpt</td></tr>
+    <tr><td>版本</td><td>1.2026.314（versionCode 2631428）</td></tr>
+    <tr><td>系统</td><td>Android 12L (API 32) 及以上</td></tr>
+    <tr><td>架构</td><td>arm64-v8a</td></tr>
+    <tr><td>签名</td><td>Google Play App Signing（CN=Android, O=Google Inc.）</td></tr>
+    <tr><td>SHA256</td><td><code>87333ee9caa4cf56292d458bea2fa1958bb0c2ff314bab058b1c691d010a66d0</code></td></tr>
+  </table>
+</div>
+
+<footer>
+  包内 4 个分包：base / config.arm64_v8a / config.mdpi / config.en<br>
+  非官方分发，仅镜像 Play 商店原包；用前请自行核对签名与哈希
+</footer>
+</body>
+</html>
